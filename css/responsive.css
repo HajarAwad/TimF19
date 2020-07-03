@@ -1,0 +1,43 @@
+@media (max-width: 1117px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .makanan {
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .top-wrapper h1 {
+        tab-size: 20px;
+    }
+
+    .makanan img {
+        border-right: none;
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width: 670px) {
+    .makanan img {
+        width: 100%;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .top-wrapper h1 {
+        tab-size: 20px;
+    }
+
+    .fa fa-bars menu-icon {
+        display: block;
+    }
+}
